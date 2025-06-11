@@ -57,7 +57,13 @@ a {
     font-size: 40px;
 }
 
-p::before, p::after {
+p::before {
+    content: '\1F98F'; /* 🦏 */
+    margin-left: 10px;
+    padding: 30px;
+}
+
+p::after {
     content: '\1F98F'; /* 🦏 */
     margin-left: 10px;
     padding: 30px;
